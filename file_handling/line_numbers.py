@@ -12,8 +12,3 @@ with open("./text.txt", "r") as file, open ("./output.txt", "w") as result:
     for index, line in enumerate(file):
         letters, punctuation  = count_letters(line)
         result.write(f"Line {index+1}: {line.strip()} ({letters})({punctuation})\n")
-
-
-
-
-
