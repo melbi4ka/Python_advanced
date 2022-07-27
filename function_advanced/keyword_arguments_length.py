@@ -6,4 +6,3 @@ print(kwargs_length(**dictionary))
 
 dictionary = {}
 print(kwargs_length(**dictionary))
-
