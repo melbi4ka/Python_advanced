@@ -15,7 +15,6 @@ def fill_the_box (*args):
 
 
 
-
 print(fill_the_box(2, 8, 2, 2, 1, 7, 3, 1, 5, "Finish"))
 
 print(fill_the_box(5, 5, 2, 40, 11, 7, 3, 1, 5, "Finish"))
