@@ -24,10 +24,10 @@ def func_executor (*args):
 
     return "\n".join(final)
 
-# print(func_executor(
-#     (sum_numbers, (1, 2)),
-#     (multiply_numbers, (2, 4))
-# ))
+print(func_executor(
+     (sum_numbers, (1, 2)),
+     (multiply_numbers, (2, 4))
+ ))
 
 
 print(func_executor(
