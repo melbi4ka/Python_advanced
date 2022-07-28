@@ -11,7 +11,5 @@ def palindrome(word, n):
     return palindrome(word, n+1)
 
 
-
-
 print(palindrome("abcba", 0))
 print(palindrome("peter", 0))
