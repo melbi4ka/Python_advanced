@@ -30,3 +30,5 @@ while not crashed:
 if not crashed:
     print('Everyone is safe.')
     print(f'{passed_counter} total cars passed the crossroads.')
+
+    
