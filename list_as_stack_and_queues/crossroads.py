@@ -82,12 +82,9 @@ while command != "END":
     if not is_safe:
         break
 
-    # green_light = green
-    # free_window = free
 
     command = input()
 
 if is_safe:
     print("Everyone is safe.")
     print(f"{counter} total cars passed the crossroads.")
-
