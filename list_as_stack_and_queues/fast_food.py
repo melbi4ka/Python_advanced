@@ -36,13 +36,3 @@ if queue:
     print(f"Orders left: {' '.join(queue)}")
 else:
     print("Orders complete")
-
-
-
-
-
-
-
-
-
-
