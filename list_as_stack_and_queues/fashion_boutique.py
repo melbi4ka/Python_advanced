@@ -26,7 +26,3 @@ while box_of_clothes:
         rack += 1
 
 print(rack)
-
-
-
-# print(box_of_clothes)
