@@ -75,9 +75,3 @@ while products:
             break
     else:
         products.append(current_product)
-
-
-
-
-
-
