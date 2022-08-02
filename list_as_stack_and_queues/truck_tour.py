@@ -45,7 +45,3 @@ for attempt in range(len(stations)):
     else:
         print(attempt)
         break
-
-
-
-
