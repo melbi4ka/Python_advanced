@@ -35,7 +35,3 @@ for i in range(n):
 
 print(f"Primary diagonal: {', '.join(primary_numbers)}. Sum: {primary_diagonal_sum}")
 print(f"Secondary diagonal: {', '.join(secondary_numbers)}. Sum: {secondary_diagonal_sum}")
-
-
-
-
