@@ -39,4 +39,3 @@ for i in range(n):
 difference = abs(primary_diagonal_sum - secondary_diagonal_sum)
 
 print(difference)
-
