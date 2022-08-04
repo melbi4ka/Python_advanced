@@ -10,15 +10,6 @@ sys.stdin = StringIO(input1)
 # sys.stdin = StringIO(input2)
 
 
-# def read_matrix(a):
-#     a_matrix = []
-#
-#     for _ in range(a):
-#         rows=[int(x) for x in input().split()]
-#         a_matrix.append(rows)
-#     return a_matrix
-
-
 row, col = [int(x) for x in input().split()]
 aplphabet = {
     0: "a", 1: "b", 2: "c",
@@ -41,7 +32,3 @@ for r in range(row):
     matrix.append(combinations)
     print(f"{' '.join(matrix[r])}")
 
-
-#
-# for i in range (len(matrix)):
-#     print(f"{' '.join(matrix[i])}")
