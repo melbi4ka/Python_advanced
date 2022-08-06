@@ -93,13 +93,3 @@ elif is_over:
     print(f"Game over! ({miner_row}, {miner_col})")
 else:
     print(f"{coal} pieces of coal left. ({miner_row}, {miner_col})")
-
-
-
-
-
-
-
-
-
-
