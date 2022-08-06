@@ -51,6 +51,3 @@ print(f"Sum = {result}")
 print(f"{' '.join(str(x) for x in maxsum_matrix[0:3])}")
 print(f"{' '.join(str(x) for x in maxsum_matrix[3:6])}")
 print(f"{' '.join(str(x) for x in maxsum_matrix[6:])}")
-
-
-
