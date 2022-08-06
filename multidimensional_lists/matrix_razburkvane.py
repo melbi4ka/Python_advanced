@@ -56,5 +56,3 @@ while True:
         print("Invalid input!")
         continue
 
-
-
