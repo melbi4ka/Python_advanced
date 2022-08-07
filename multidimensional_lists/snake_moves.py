@@ -12,14 +12,6 @@ Python
 sys.stdin = StringIO(input2)
 
 
-# def read_matrix(a):
-#     a_matrix = []
-#
-#     for _ in range(a):
-#         rows = input().split()
-#         a_matrix.append(rows)
-#     return a_matrix
-
 from collections import deque
 
 row, col = [int(x) for x in input().split()]
@@ -44,10 +36,4 @@ for r in range(row):
             que.append(current)
 
     print(''.join(matrix[r]))
-
-
-
-
-
-# print(matrix)
-# line = input()
+    
