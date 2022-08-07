@@ -42,21 +42,3 @@ for r in range(row-1):
             result += 1
 
 print(result)
-
-
-#
-# primary_diagonal_sum = 0
-# secondary_diagonal_sum = 0
-# primary_numbers = ()
-# secondary_numbers = ()
-#
-# for i in range(n):
-#     primary_numbers += (str(matrix[i][i]), )
-#     primary_diagonal_sum += matrix[i][i]
-#     secondary_numbers += (str(matrix[i][n-1-i]), )
-#     secondary_diagonal_sum += matrix[i][n-1-i]
-#
-# print(f"Primary diagonal: {', '.join(primary_numbers)}. Sum: {primary_diagonal_sum}")
-# print(f"Secondary diagonal: {', '.join(secondary_numbers)}. Sum: {secondary_diagonal_sum}")
-#
-
