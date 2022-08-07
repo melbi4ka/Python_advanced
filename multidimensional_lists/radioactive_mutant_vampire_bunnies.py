@@ -129,9 +129,3 @@ if is_win:
     print(f"won: {player_row} {player_col}")
 if is_dead:
     print(f"dead: {player_row} {player_col}")
-
-
-
-
-
-
