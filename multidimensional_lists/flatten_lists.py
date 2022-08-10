@@ -20,4 +20,3 @@ for el in range (len(line)-1, -1, -1):
     result.extend(subresult)
 
 print(*result, end = " ")
-# print(matrix)
