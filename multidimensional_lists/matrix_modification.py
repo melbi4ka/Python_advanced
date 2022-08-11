@@ -59,10 +59,3 @@ while a_command != "END":
 
 for row in matrix:
     print(*row, sep = " ")
-
-
-
-
-
-
-
