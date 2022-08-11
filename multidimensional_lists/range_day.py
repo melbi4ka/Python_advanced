@@ -115,13 +115,3 @@ else:
 
 for el in all_coordinates:
     print(el)
-
-# for r in matrix:
-#     print(*r)
-
-# най-доброто 100/100 - подобрена
-
-
-
-
-
