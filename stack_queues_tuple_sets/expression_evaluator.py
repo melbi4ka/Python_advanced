@@ -60,8 +60,3 @@ while len(queue) > 0:
         expression.append(result)
 
 print(expression.pop())
-
-
-
-
-
