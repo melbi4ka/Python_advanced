@@ -34,4 +34,3 @@ for el in line:
         nums_queue.append(int(el))
 
 print(nums_queue.pop())
-
