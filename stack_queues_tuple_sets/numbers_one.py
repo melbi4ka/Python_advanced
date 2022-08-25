@@ -64,12 +64,3 @@ for _ in range(number):
 
 print(*sorted(first_line), sep=", ")
 print(*sorted(second_line), sep=", ")
-
-# for i in sorted(first_line):
-#     if i == sorted(first_line)[-1]:
-#         print(i)
-#     else:
-#         print(i, end=", ")
-
-
-
