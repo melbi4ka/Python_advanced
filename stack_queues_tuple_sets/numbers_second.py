@@ -60,5 +60,3 @@ for _ in range(number):
 
 print(*sorted(first_line), sep=", ")
 print(*sorted(second_line), sep=", ")
-
-# for i in sorted(first_line):
