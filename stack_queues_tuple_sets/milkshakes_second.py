@@ -78,5 +78,3 @@ else:
     print("Milk: ", end="")
     print(*milk, sep=", ")
 
-
-
