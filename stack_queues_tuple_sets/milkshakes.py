@@ -64,7 +64,3 @@ if not milk:
 else:
     print("Milk: ", end="")
     print(*milk, sep=", ")
-
-
-
-
