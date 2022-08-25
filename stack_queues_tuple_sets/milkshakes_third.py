@@ -54,10 +54,9 @@ if not chocolate:
     print("Chocolate: empty")
 else:
     print(f"Chocolate: {', '.join([str(x) for x in chocolate])}")
-    # print(*chocolate, sep=", ")
 
 if not milk:
     print("Milk: empty")
 else:
     print(f"Milk: {', '.join([str(x) for x in milk])}")
-    # print(*milk, sep=", ")
+    
