@@ -83,5 +83,4 @@ if magic:
 for name, value in sorted(counted_toys.items()):
     # sorted_name = sorted(name)
     print(f"{name}: {value}")
-
-# print(gifts)
+    
