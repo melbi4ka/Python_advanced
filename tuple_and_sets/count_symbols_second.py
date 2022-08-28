@@ -19,4 +19,3 @@ for el in line:
 
 for key, value in sorted(counts.items()):
     print(f"{key}: {value} time/s")
-# print(sorted_counts)
