@@ -66,11 +66,3 @@ for color in new_colors:
         result.append(color)
 
 print(result)
-
-
-
-
-
-
-
-
