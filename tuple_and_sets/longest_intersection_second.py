@@ -27,7 +27,7 @@ for _ in range (n):
     second_start, second_end = map(int,second.split(","))
 
     first_set = set(range(first_start, first_end + 1))
-    # print(first_set)
+   
     second_set = set(range(second_start, second_end + 1))
 
     result = first_set.intersection(second_set)
