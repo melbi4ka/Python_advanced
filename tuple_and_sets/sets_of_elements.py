@@ -34,12 +34,3 @@ for i in range (n + m):
 
 common = n_numbers.intersection(m_numbers)
 [print(x) for x in common]
-
-# print(n_numbers)
-# print(m_numbers)
-
-
-
-
-
-
