@@ -22,6 +22,5 @@ periodic = set()
 for _ in range (n):
     line = (input().split())
     periodic = periodic.union(line)
-# print(periodic)
 
 print(*periodic, sep= "\n")
