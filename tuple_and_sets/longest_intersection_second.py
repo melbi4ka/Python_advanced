@@ -23,7 +23,7 @@ final_result = set()
 for _ in range (n):
     first,second = input().split("-")
     first_start, first_end = map(int,first.split(","))
-    # print(first_start)
+  
     second_start, second_end = map(int,second.split(","))
 
     first_set = set(range(first_start, first_end + 1))
