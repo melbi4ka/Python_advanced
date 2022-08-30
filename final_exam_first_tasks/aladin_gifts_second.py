@@ -85,24 +85,3 @@ sorted_dict = sorted(count_gifts.items(), key = lambda x: x[0])
 for key, value in sorted_dict:
     if value > 0:
         print(f"{key}: {value}")
-
-# 100/100
-# обясненията са като на първата задача, но е решена не с рейндж, а с функция
-
-# gifts_dict = {
-#     "Gemstone": [x / 10.0 for x in range(1000, 1991, 1)],
-#     "Porcelain Sculpture": [x / 10.0 for x in range(2000, 2991, 1)],
-#     "Gold": [x / 10.0 for x in range(3000, 3991, 1)],
-#     "Diamond Jewellery": [x / 10.0 for x in range(4000, 4991, 1)],
-# }
-# това е интересен рейндж, който ми даваше числата през 0,10
-
-# gifts_dict = {
-#     "Gemstone": [x * 0.5 for x in range(200, 400)],
-#     "Porcelain Sculpture": [x * 0.5 for x in range(400, 600)],
-#     "Gold": [x * 0.5 for x in range(600, 800)],
-#     "Diamond Jewellery": [x * 0.5 for x in range(800, 1000)]
-# }
-
-# това е също интересен рейндж, който ми даваше числата през 0,5
-
