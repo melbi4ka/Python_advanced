@@ -54,14 +54,3 @@ while matches < 3 and rotation < 10:
 
 print(f"Seat matches: {', '.join(x for x in seat_matches)}")
 print(f"Rotations count: {rotation}")
-
-
-
-
-
-
-
-
-
-
-
