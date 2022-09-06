@@ -129,8 +129,6 @@ while command != "End":
     matrix[santa_row][santa_col] = "Y"
     command = input()
 
-# matrix[santa_row][santa_col] = "Y"
-
 print("You've collected:")
 print(f"- {collected_decoration} Christmas decorations")
 print(f"- {collected_gift} Gifts")
@@ -138,5 +136,3 @@ print(f"- {collected_cookie} Cookies")
 
 for r in range(len(matrix)):
     print(*matrix[r])
-
-
