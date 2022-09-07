@@ -113,20 +113,3 @@ if not outside:
 print(f"Food eaten: {food}")
 for r in matrix:
     print(*r, sep="")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
