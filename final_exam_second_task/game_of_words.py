@@ -79,16 +79,3 @@ for _ in range(m):
 print(text)
 for r in matrix:
     print("".join(r))
-
-
-
-
-
-
-
-
-
-
-
-
-
