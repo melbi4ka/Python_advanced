@@ -10,5 +10,3 @@ def get_magic_triangle(num_rows):
     return list
 
 print(get_magic_triangle(5))
-
-# 100/100 решение от нетя за Pascal triangle
